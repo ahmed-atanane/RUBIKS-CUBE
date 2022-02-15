@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1623445108 source:/home/atanane/Rubikscube/src/core/Actions.cpp
+	"Actions.h"
+	<cassert>
+	<iostream>
+
+1623276998 /home/atanane/Rubikscube/src/core/Actions.h
+	"Cube.h"
+
+1623009926 /home/atanane/Rubikscube/src/core/Cube.h
+
+1623276852 source:/home/atanane/Rubikscube/src/core/Cube.cpp
+	"Cube.h"
+	<cassert>
+	<cstdlib>
+	<ctime>
+	<iostream>
+
+1623445044 source:/home/atanane/Rubikscube/src/core/Jeu.cpp
+	"Jeu.h"
+
+1623445080 /home/atanane/Rubikscube/src/core/Jeu.h
+	"Cube.h"
+	"Actions.h"
+	<cstring>
+
+1623247984 source:/home/atanane/Rubikscube/src/core/mainTest.cpp
+	"Actions.h"
+	"Cube.h"
+	<iostream>
+
+1623043674 source:/home/atanane/Rubikscube/src/txt/maintxt.cpp
+	"winTxt.h"
+	"txtJeu.h"
+
+1623043748 /home/atanane/Rubikscube/src/txt/winTxt.h
+
+1623042661 /home/atanane/Rubikscube/src/txt/txtJeu.h
+	"../core/Jeu.h"
+
+1623446200 source:/home/atanane/Rubikscube/src/txt/txtJeu.cpp
+	<iostream>
+	<windows.h>
+	<unistd.h>
+	"./winTxt.h"
+	"../core/Jeu.h"
+
+1623045443 source:/home/atanane/Rubikscube/src/txt/winTxt.cpp
+	"winTxt.h"
+	<cassert>
+	<stdlib.h>
+	<stdarg.h>
+	<iostream>
+	<stdio.h>
+	<windef.h>
+	<winbase.h>
+	<wincon.h>
+	<windows.h>
+	<conio.h>
+	<unistd.h>
+	<termios.h>
+	<unistd.h>
+
+1623433960 source:/home/atanane/Rubikscube/src/SDL2/mainSDL.cpp
+	"SDLJeu.h"
+
+1623432906 /home/atanane/Rubikscube/src/SDL2/SDLJeu.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"../core/Jeu.h"
+
+1623445928 source:/home/atanane/Rubikscube/src/SDL2/SDLJeu.cpp
+	<cassert>
+	"SDLJeu.h"
+	<cstdlib>
+	<iostream>
+	<cstring>
+
